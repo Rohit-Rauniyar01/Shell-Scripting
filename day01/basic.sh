@@ -8,7 +8,7 @@ echo " Hello Gandu"
 
 <<comment
 this is 
-multi line comment
+a multi line comment
 comment
 
 
