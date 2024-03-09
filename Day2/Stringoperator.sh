@@ -15,7 +15,7 @@ echo "New var is ----------$newVar"
 
 # to slice the index from myvar in shell scripting
 
-echo "After Slicing ---     ${myvar:6:6}"
+echo "After Slicing  ${myvar:6:6}"
 
 <<comment
 'myvar' is the name of the variable from which the substring will be extracted.
