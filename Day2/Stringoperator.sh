@@ -6,3 +6,4 @@ myVarlen="${#myvar}" # we can count the length of the string in the Array
 echo "Length of my variable is $myVarlen"
 echo "$myVarlen"
 
+echo "Modified"
