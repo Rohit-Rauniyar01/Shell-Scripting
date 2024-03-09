@@ -10,4 +10,3 @@ echo "upper case is ${myvar^^}" # '^^' used  to print upper-case in Array
 echo "upper case is ${myvar,,}" # ',,' used  to print lower-case in Array
 
 
-echo "Modified New Something"
