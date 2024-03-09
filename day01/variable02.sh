@@ -17,7 +17,7 @@ echo -e "my name is $name , age is $age and sub is $sub \n"
 Hostname=$(hostname)
 echo "this is the user for this machine $Hostname"
 
-#  readonly is used tofix the variable name
+#  readonly is used to fix the variable name it can't be change 
 readonly Name="Rohit"
 Name="Gandu"
 echo "this is my name $Name"
