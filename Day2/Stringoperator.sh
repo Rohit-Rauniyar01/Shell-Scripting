@@ -6,4 +6,8 @@ myVarlen="${#myvar}" # we can count the length of the string in the Array
 echo "Length of my variable is $myVarlen"
 echo "$myVarlen"
 
-echo "Modified"
+echo "upper case is ${myvar^^}" # '^^' used  to print upper-case in Array
+echo "upper case is ${myvar,,}" # ',,' used  to print lower-case in Array
+
+
+echo "Modified New"
