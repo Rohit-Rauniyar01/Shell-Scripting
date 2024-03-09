@@ -29,6 +29,6 @@ then
     then
     echo "3rd Division" 
     else
-    echo "Dub k mar ja $marks"
+    echo "You are fail $marks"
 
 fi
