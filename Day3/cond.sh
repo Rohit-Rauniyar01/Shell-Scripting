@@ -6,7 +6,7 @@ read -p "Enter your mark " marks
 if [[ $marks -gt 40 ]]
 then
     echo "You are pass 
-    Enjoy Your day $marks"
+    Enjoy Your day with $marks mark"
 
     else
     echo "Dub k mar ja $marks"
