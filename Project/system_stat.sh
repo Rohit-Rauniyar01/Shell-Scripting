@@ -19,12 +19,14 @@ lscpu=$(lscpu)
 echo "$lscpu"
 echo "
 "
+sleep 2
 echo "------------------------Let's check the disk space-----------------------------"
 echo ""
 df -H | grep '/$' | awk '{print $1, "Free/Used Space: " $4 "/" $3 " of " $2}'
 
 echo "
 "
+sleep 2
 echo "---------------------Checking Network Status-----------------------------------"
 # Find network interfaces that are UP
 echo ""
@@ -38,20 +40,24 @@ else
 fi
 echo "
 "
+sleep 2
 echo "******************************Check the IP Address******************************"
 echo ""
 ifconfig=$(ifconfig)
 echo "$ifconfig"
 
 echo ""
+sleep 2
 echo "****************************** User uptime **************************************"
 echo ""
 uptime=$(uptime)
 echo "$uptime"
 echo ""
+sleep 2
 echo "----------------------------- Last -4 Login Details  -----------------------------"
 echo ""
 last | head -4
 
 echo ""
+sleep 2
 echo "//////////////////////////// Hope yoou got the Details ///////////////////////////"
